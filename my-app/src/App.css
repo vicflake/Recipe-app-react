@@ -1,0 +1,27 @@
+:root {
+    --charcoal: #122620;
+    --cream: #f4ebd0;
+    -tan: #b68d40;
+    --gold: #d6ad60;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.App {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100vh;
+    justify-items: center;
+}
+
+.RecipeCard {
+    width: 100%;
+    background-color: var(--charcoal);
+    background-size: cover;
+    border-radius: 40px 0 0 40px;
+}
