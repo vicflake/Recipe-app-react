@@ -1,0 +1,9 @@
+
+.Menu_lines {
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+    background-color: var(--gold);
+    width: 25px;
+    height: 2px;
+}

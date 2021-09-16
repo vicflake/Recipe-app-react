@@ -1,7 +1,7 @@
 :root {
-    --charcoal: #122620;
+    --black: #1A1C20;
     --cream: #f4ebd0;
-    -tan: #b68d40;
+    --tan: #b68d40;
     --gold: #d6ad60;
 }
 
@@ -11,17 +11,30 @@
     box-sizing: border-box;
 }
 
-
-.App {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100vh;
-    justify-items: center;
-}
-
-.RecipeCard {
-    width: 100%;
-    background-color: var(--charcoal);
+body {
+    color: var(--black);
+    /* background-image: url(./images/spices.jpg); */
+    background-color: var(--black);
     background-size: cover;
-    border-radius: 40px 0 0 40px;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
 }
+
+
+
+.Search-container {
+    display: flex;
+    max-width: 1440px;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Logo img {
+    width: 4rem;
+    margin-right: 0.5rem;
+}
+
+
