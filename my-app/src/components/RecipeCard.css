@@ -23,3 +23,11 @@
 .RecipeCard h3, .RecipeCard h2 {
     color: var(--white);
 }
+
+.RecipeCard h2 {
+    font-size: 1.25rem;
+}
+
+.RecipeCard h3 {
+    font-size: 1rem;
+}
