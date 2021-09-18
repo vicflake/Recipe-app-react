@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "./components/Search";
 import Logo from "./components/Logo";
-import RecipeCard from "./components/RecipeCard";
+import Recipes from "./components/Recipes";
 import IngredientSuggestion from "./components/IngredientSuggestion";
 import Menu from "./components/Menu";
 
@@ -17,10 +17,8 @@ export default function App() {
         <Search />
         <Menu />
       </div>
-        <IngredientSuggestion />
         
-
-        <RecipeCard />
+        <Recipes />
     </div>
   );
 }

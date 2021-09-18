@@ -1,3 +1,7 @@
+.Logo {
+    margin-right: 1rem;
+}
+
 .Logo h1 {
     color: var(--gold);
     font-size: 1rem;

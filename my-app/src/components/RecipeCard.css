@@ -1,3 +1,25 @@
-.card-container {
-    width: 70%;
+.RecipeCard {
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    border-radius: 10px;
+    background-color: var(--black);
+    background-image: url("https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+
+.Recipe_text {
+    background-color: var(--black);
+    opacity: 0.7;
+    position: relative;
+    top: 180px;
+    border-radius: inherit;
+    padding: 10px;
+}
+
+
+.RecipeCard h3, .RecipeCard h2 {
+    color: var(--white);
 }
