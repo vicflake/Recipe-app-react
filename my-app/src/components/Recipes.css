@@ -1,3 +1,22 @@
+.Searh {
+    display: flex;
+    justify-content: center;
+}
+
+.Search input {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--black);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    border-radius: 20px;
+    margin: 1rem 0;
+}
+
+.Search input::placeholder {
+    color: var(--gold);
+}
+
 .Recipes {
     display: grid;
     grid-template-columns: 1fr 1fr;
