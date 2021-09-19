@@ -7,7 +7,7 @@ let [ingredient, setIngredient] = useState("");
 
 function handleSubmit(e){
     e.preventDefault();
-    console.log(ingredient)
+    console.log(ingredient);
 }
 
 function inputIngredient(e){
